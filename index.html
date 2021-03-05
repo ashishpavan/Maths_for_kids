@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Maths for kids</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Maths for Kids</h2>
+            </div>
+            <ul>
+                <li><a href="#" class="operator change">Addition</a></li>
+                <li><a href="#" class="operator change">Subtraction</a></li>
+                <li><a href="#" class="operator change">Multiplication</a></li>
+                <li><a href="#" class="operator change">Division</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form id="practice_info" class="practice_info">
+                <label for="no_of_questions" class="change">Number of questions: </label>
+                <select form="practice_info" id="no_of_questions">
+                    <option value="10" selected>10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                </select>
+                <div class="space"></div>
+                <label for="no_of_digits" class="change">Number of digits: </label>
+                <select form="practice_info" id="no_of_digits">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="space"></div>
+                <input type="button" value="Create Practice Sheet" class="practise_button button change">
+            </form>
+            <form class="questions" id="questions">
+                <h3>The Test begins!!!</h3>
+                <ul>
+                    <!--
+                        <li class="question_1">
+                            <p> 04</p>
+                            <p>x 2</p>
+                            <input type="number" class="answer_1">
+                        </li>
+                    -->
+                </ul>
+               <input type="button" value="Check Answer" class="question_button button">
+            </form>
+        </main>
+        <div class="remark"></div>
+    </header>
+    <div class="dropdown">
+        <button class="dropbtn">Translate</button>
+        <div class="dropdown-content">
+          <a href="#eng">English</a>
+          <a href="#hin">Hindi</a>
+          <a href="#mar">Marathi</a>
+        </div>
+    </div>
+    
+</body>
+</html>
