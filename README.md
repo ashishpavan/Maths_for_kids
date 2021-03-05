@@ -1,7 +1,7 @@
 # Maths_for_kids
 
 A simple web-site to enable children to learn maths in a customised way.
-this website also contains language translation facility for english,marathi,hindi
+This website also contains language translation facility for english,marathi,hindi /n
 This projects uses technologies like HTML,CSS,JavaScript 
 To run Locally just download all the files and run Index.html
 Note:- style.css and app.js shd be in the same folder as index.html
