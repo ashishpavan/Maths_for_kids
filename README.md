@@ -1,4 +1,4 @@
-# Maths_for_kids
+# Maths For Kids
 
 A simple web-site to enable children to learn maths in a customised way.
 This website also contains language translation facility for english,marathi,hindi /n
